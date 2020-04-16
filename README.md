@@ -6,8 +6,8 @@ Experimental project to setup component library where every component is an stan
 - [ ] Lerna setup
 - [ ] Conventional commit
 - [x] Editorconfig
-- [ ] Prettier
-- [ ] husky + lint-staged
+- [x] Prettier
+- [x] husky + lint-staged
 - [ ] ESLint
 - [ ] Jest
 - [ ] Storybook
@@ -26,4 +26,9 @@ Plugin for Visual Studio Code – [EditorConfig](https://marketplace.visualstudi
 
 #### Prettier
 
-Code should be formatted with Prettier. Staged files will be formatted before commit
+Code should be formatted with Prettier. Staged files will be formatted before commit.
+
+#### husky + lint-staged
+
+Allow to define hooks on different Git events
+
