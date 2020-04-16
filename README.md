@@ -5,7 +5,7 @@ Experimental project to setup component library where every component is an stan
 ## TODO
 
 - [x] Lerna setup
-- [ ] Conventional commit
+- [х] Conventional commit
 - [x] Editorconfig
 - [x] Prettier
 - [x] husky + lint-staged
@@ -20,6 +20,20 @@ Experimental project to setup component library where every component is an stan
 - [ ] Changelog generation
 - [ ] Package publishing
 - [ ] CI
+
+### Development
+
+Clone repository
+
+Run `npm install`
+
+Bootstrap lerna project using `npm run bootstrap`
+
+Run in terminal `npm run local-npm-registry` to setup local [Verdaccio](https://www.verdaccio.org/) registry
+
+Then run in another terminal `local-npm-registry:prepare` to create default user
+
+Verdaccio should be runned when you want to push packages
 
 #### EditorConfig
 
