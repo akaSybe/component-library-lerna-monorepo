@@ -1,0 +1,27 @@
+{
+  "name": "component-library-lerna-monorepo",
+  "version": "0.0.0",
+  "description": "Experimental project to setup component library in monorepo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akaSybe/component-library-lerna-monorepo.git"
+  },
+  "keywords": [
+    "component",
+    "uikit",
+    "library",
+    "lerna",
+    "monorepo",
+    "storybook"
+  ],
+  "author": "Aleksandr Shestakov akasybe@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akaSybe/component-library-lerna-monorepo/issues"
+  },
+  "homepage": "https://github.com/akaSybe/component-library-lerna-monorepo#readme"
+}
